@@ -4304,6 +4304,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "BGM"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -4648,13 +4660,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "BGM"
         }
       ],
       "layers": [
@@ -5589,6 +5594,13 @@
           ],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "BGM"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6161,7 +6173,7 @@
       "name": "easy 1 gurun",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
+      "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -12323,21 +12335,21 @@
             },
             {
               "type": {
-                "value": "RePlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"pilihan menu\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -16478,7 +16490,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.546875,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -18187,7 +18200,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000009,
+        "zoomFactor": 0.49508400737488945,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -23508,6 +23521,13 @@
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "BGM"
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -40252,6 +40272,13 @@
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "BGM"
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
